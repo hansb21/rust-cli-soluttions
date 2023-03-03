@@ -1,0 +1,52 @@
+2023-02-27 16:16:13 [INFO ]: Started aw-qt...  (aw_qt.main:53)
+2023-02-27 16:16:13 [WARNING]: Found matching file but was not executable: /opt/activitywatch/aw-qt.desktop  (aw_qt.manager:64)
+2023-02-27 16:16:13 [WARNING]: Found matching file but was not executable: /opt/activitywatch/aw-server-rust/aw-server.service  (aw_qt.manager:64)
+2023-02-27 16:16:13 [INFO ]: Found 4 bundled modules  (aw_qt.manager:85)
+2023-02-27 16:16:13 [INFO ]: Found 4 system modules  (aw_qt.manager:119)
+2023-02-27 16:16:13 [INFO ]: Starting module aw-server  (aw_qt.manager:148)
+2023-02-27 16:16:13 [INFO ]: Starting module aw-watcher-afk  (aw_qt.manager:148)
+2023-02-27 16:16:13 [INFO ]: Starting module aw-watcher-window  (aw_qt.manager:148)
+2023-02-27 16:16:13 [INFO ]: Creating trayicon...  (aw_qt.trayicon:206)
+2023-02-27 16:16:13 [INFO ]: Initialized aw-qt and trayicon successfully  (aw_qt.trayicon:262)
+2023-02-27 16:16:13 [INFO ]: aw-watcher-afk started  (aw_watcher_afk.afk:60)
+2023-02-27 16:16:13 [INFO ]: aw-watcher-window started  (aw_watcher_window.main:62)
+2023-02-27 16:16:13 [INFO ]: Using storage method: peewee  (aw_server.main:33)
+2023-02-27 16:16:13 [INFO ]: Starting up...  (aw_server.main:41)
+2023-02-27 16:16:13 [INFO ]: Using database file: /home/snah_/.local/share/activitywatch/aw-server/peewee-sqlite.v2.db  (aw_datastore.storages.peewee:126)
+ * Serving Flask app 'aw-server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-27 16:16:13 [INFO ]:  * Running on http://localhost:5600 (Press CTRL+C to quit)  (werkzeug:224)
+2023-02-27 16:16:14 [INFO ]: Connection to aw-server established by aw-watcher-afk  (aw_client.client:429)
+2023-02-27 16:16:14 [INFO ]: Connection to aw-server established by aw-watcher-window  (aw_client.client:429)
+2023-02-27 16:16:41 [WARNING]: Gap was of negative duration but could be safely merged (-734.745s). This message will only show once per batch.  (aw_transform.flood:46)
+2023-02-27 16:16:41 [WARNING]: Gap was of negative duration but could be safely merged (-498.066s). This message will only show once per batch.  (aw_transform.flood:46)
+2023-02-27 16:16:41 [WARNING]: Gap was of negative duration and could NOT be safely merged (-5548.506s). This warning will only show once per batch.  (aw_transform.flood:54)
+2023-02-27 16:17:10 [INFO ]: Received heartbeat after pulse window, inserting as new event. (bucket: aw-watcher-vim_sputinik)  (aw_server.api:279)
+2023-02-27 16:17:22 [WARNING]: Gap was of negative duration but could be safely merged (-734.745s). This message will only show once per batch.  (aw_transform.flood:46)
+2023-02-27 16:17:22 [WARNING]: Gap was of negative duration but could be safely merged (-498.066s). This message will only show once per batch.  (aw_transform.flood:46)
+2023-02-27 16:17:22 [WARNING]: Gap was of negative duration and could NOT be safely merged (-5548.506s). This warning will only show once per batch.  (aw_transform.flood:54)
+2023-02-27 16:18:32 [INFO ]: Received heartbeat after pulse window, inserting as new event. (bucket: aw-watcher-vim_sputinik)  (aw_server.api:279)
+2023-02-27 16:23:48 [INFO ]: Received heartbeat after pulse window, inserting as new event. (bucket: aw-watcher-vim_sputinik)  (aw_server.api:279)
+2023-02-27 16:29:11 [WARNING]: Gap was of negative duration but could be safely merged (-734.745s). This message will only show once per batch.  (aw_transform.flood:46)
+2023-02-27 16:29:11 [WARNING]: Gap was of negative duration but could be safely merged (-498.066s). This message will only show once per batch.  (aw_transform.flood:46)
+2023-02-27 16:29:11 [WARNING]: Gap was of negative duration and could NOT be safely merged (-5548.506s). This warning will only show once per batch.  (aw_transform.flood:54)
+2023-02-27 16:38:50 [INFO ]: Received heartbeat after pulse window, inserting as new event. (bucket: aw-watcher-window_sputinik)  (aw_server.api:279)
+2023-02-27 16:38:56 [INFO ]: Received heartbeat after pulse window, inserting as new event. (bucket: aw-watcher-afk_sputinik)  (aw_server.api:279)
+libGL error: MESA-LOADER: failed to open radeonsi: /opt/activitywatch/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /usr/lib/dri/radeonsi_dri.so) (search paths /usr/lib/dri, suffix _dri)
+libGL error: failed to load driver: radeonsi
+libGL error: MESA-LOADER: failed to open radeonsi: /opt/activitywatch/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /usr/lib/dri/radeonsi_dri.so) (search paths /usr/lib/dri, suffix _dri)
+libGL error: failed to load driver: radeonsi
+libGL error: MESA-LOADER: failed to open swrast: /opt/activitywatch/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /usr/lib/dri/swrast_dri.so) (search paths /usr/lib/dri, suffix _dri)
+libGL error: failed to load driver: swrast
+2023-02-27 16:47:10 [INFO ]: Starting module aw-server-rust  (aw_qt.manager:148)
+[2023-02-27 16:47:10][[32mINFO[0m][aw_server]: Using DB at path "/home/snah_/.local/share/activitywatch/aw-server-rust/sqlite.db"
+[2023-02-27 16:47:10][[32mINFO[0m][aw_server]: Using aw-webui assets at path "/opt/activitywatch/aw-server-rust/./static/"
+[2023-02-27 16:47:10][[32mINFO[0m][aw_server::endpoints]: Starting aw-server-rust at 127.0.0.1:5600
+Error: Bind(Os { code: 98, kind: AddrInUse, message: "Address already in use" })
+2023-02-27 16:47:14 [INFO ]: Stopped module aw-watcher-afk  (aw_qt.manager:195)
+2023-02-27 16:47:14 [INFO ]: Stopped module aw-server  (aw_qt.manager:195)
+2023-02-27 16:47:14 [INFO ]: Stopped module aw-watcher-window  (aw_qt.manager:195)
+Shutdown initiated, stopping all services...
